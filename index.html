@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InMailFail: The worst recruiting emails</title>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Roboto' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="http://i.imgur.com/4Yh5Lg6.png">
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="skeleton.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="nav">
+
+    <h1 class="row">InMailFail</h1>
+    <img class="logo" src="http://i.imgur.com/4Yh5Lg6.png">
+    <h2 class="row">An exciting oppertunity for you!</h2>
+    <div class="buttons">
+      <a href="/" class="button button-primary">Home</a>
+      <a href="/submit.html" class="button">Submit</a>
+      <!-- <a href="https://twitter.com/InMailFail" class="button">@inmailfail</a> -->
+    </div>
+
+
+    <div class="hired">
+      <a href="http://join.hired.com/x/ackFco">
+        <div class="top">Find a better job</div>
+        <div class="bottom">Hired</div>
+      </a>
+    </div>
+    <div>Made by <a href="http://rkoutnik.com">Randall Koutnik</a> &copy;2015</div>
+    <div class="disclaimer">Dear lawyers: This is a parody.</div>
+  </div>
+
+  <div class="container">
+    <div id="content"></div>
+  </div>
+
+<script src="infails.js"></script>
+<script>
+  var content = document.querySelector('#content');
+  infails.forEach(function (infail) {
+    var ele = document.createElement('div');
+    ele.className = 'infail';
+
+    var infailTitle = document.createElement('h4');
+    infailTitle.innerText = infail.title;
+    infailTitle.className = 'text-center';
+    ele.appendChild(infailTitle);
+
+    var infailBody = document.createElement('div');
+    // Yeah, yeah, I know it's bad
+    infailBody.innerHTML = infail.content;
+    ele.appendChild(infailBody);
+
+    content.appendChild(ele);
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63816999-1', 'auto');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>
