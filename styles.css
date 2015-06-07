@@ -1,45 +1,73 @@
-.nav {
+.nav .buttons {
+  margin-top: 5px;
+  margin-bottom: 5px; }
+  .nav .buttons a {
+    width: 100%;
+    margin: 0;
+    text-align: left; }
+    .nav .buttons a.button-primary {
+      background-color: #AEAEAE;
+      border-color: #AEAEAE; }
+    .nav .buttons a:hover {
+      border-color: #333; }
+.nav h1 {
+  font-family: "Roboto", sans-serif; }
+.nav h2 {
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  font-size: 2rem; }
+.nav .disclaimer {
+  font-style: italic; }
+.nav .hired {
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center; }
+  .nav .hired .top {
+    background-color: #F1F2F4;
+    color: black; }
+  .nav .hired .bottom {
+    background-color: #54c9a8;
+    color: white; }
+  .nav .hired a {
+    text-decoration: none;
+    font-size: 2rem; }
+.nav.nav-side {
   position: fixed;
   left: 10px;
   top: 60px;
   width: 230px; }
-  .nav h1 {
-    font-family: "Roboto", sans-serif;
+  @media screen and (max-width: 1500px) {
+    .nav.nav-side {
+      display: none; } }
+  .nav.nav-side h1 {
     margin: 0; }
-  .nav .logo {
+  .nav.nav-side .logo {
     width: 100%; }
-  .nav h2 {
-    font-family: "PT Sans", sans-serif;
-    font-style: italic;
-    font-size: 2rem;
+  .nav.nav-side h2 {
     margin: 0; }
-  .nav .buttons {
+  .nav.nav-side .buttons {
     margin-top: 5px;
     margin-bottom: 5px; }
-    .nav .buttons a {
+    .nav.nav-side .buttons a {
       width: 100%;
       margin: 0;
       text-align: left; }
-      .nav .buttons a.button-primary {
+      .nav.nav-side .buttons a.button-primary {
         background-color: #AEAEAE;
         border-color: #AEAEAE; }
-      .nav .buttons a:hover {
+      .nav.nav-side .buttons a:hover {
         border-color: #333; }
-  .nav .hired {
-    text-transform: uppercase;
-    width: 100%;
-    text-align: center; }
-    .nav .hired .top {
-      background-color: #F1F2F4;
-      color: black; }
-    .nav .hired .bottom {
-      background-color: #54c9a8;
-      color: white; }
-    .nav .hired a {
-      text-decoration: none;
-      font-size: 2rem; }
-  .nav .disclaimer {
-    font-style: italic; }
+@media screen and (min-width: 1500px) {
+  .nav.nav-top {
+    display: none; } }
+.nav.nav-top .logo {
+  min-height: 138px; }
+.nav.nav-top .title {
+  text-align: center; }
+.nav.nav-top .footer .disclaimer {
+  text-align: left; }
+.nav.nav-top .footer .me {
+  text-align: right; }
 
 .text-center {
   text-align: center; }
