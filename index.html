@@ -1,98 +1,74 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>InMailFail: The worst recruiting emails</title>
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Roboto' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="http://i.imgur.com/4Yh5Lg6.png">
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="skeleton.css">
-  <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-  <div class="nav nav-side">
-
-    <h1 class="row">InMailFail</h1>
-    <img class="logo" src="http://i.imgur.com/4Yh5Lg6.png">
-    <h2 class="row">An exciting opportunity for you!</h2>
-    <div class="buttons">
-      <a href="/" class="button button-primary">Home</a>
-      <a href="/submit.html" class="button">Submit</a>
-      <!-- <a href="https://twitter.com/InMailFail" class="button">@inmailfail</a> -->
-    </div>
-
-
-    <div class="hired">
-      <a href="http://join.hired.com/x/ackFco">
-        <div class="top">Find a better job</div>
-        <div class="bottom">Hired</div>
-      </a>
-    </div>
-    <div>Made by <a href="http://rkoutnik.com">Randall Koutnik</a> &copy;2015</div>
-    <div class="disclaimer">Dear lawyers: This is a parody.</div>
-  </div>
-
-  <div class="nav nav-top container">
-
-    <div class="row">
-      <img class="logo three columns" src="http://i.imgur.com/4Yh5Lg6.png">
-      <div class="six columns title">
-        <h1 class="row">InMailFail</h1>
-        <h2 class="row">An exciting opportunity for you!</h2>
-      </div>
-      <div class="three columns">
-        <div class="buttons row">
-          <a href="/" class="button button-primary">Home</a>
-          <a href="/submit.html" class="button">Submit</a>
-          <!-- <a href="https://twitter.com/InMailFail" class="button">@inmailfail</a> -->
-        </div>
-        <div class="hired row">
-          <a href="http://join.hired.com/x/ackFco">
-            <div class="top">Find a better job</div>
-            <div class="bottom">Hired</div>
-          </a>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="row footer">
-      <div class="me six columns">Made by <a href="http://rkoutnik.com">Randall Koutnik</a> &copy;2015</div>
-      <div class="disclaimer six columns">Dear lawyers: This is a parody.</div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div id="content"></div>
-  </div>
-
-<script src="infails.js"></script>
-<script>
-  var content = document.querySelector('#content');
-  infails.forEach(function (infail) {
-    var ele = document.createElement('div');
-    ele.className = 'infail';
-
-    var infailTitle = document.createElement('h4');
-    infailTitle.innerText = infail.title;
-    infailTitle.className = 'text-center';
-    ele.appendChild(infailTitle);
-
-    var infailBody = document.createElement('div');
-    // Yeah, yeah, I know it's bad
-    infailBody.innerHTML = infail.content;
-    ele.appendChild(infailBody);
-
-    content.appendChild(ele);
-  });
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-63816999-1', 'auto');
-  ga('send', 'pageview');
-</script>
-</body>
-</html>
+<!DOCTYPE html><html><head><title>InMailFail: The worst recruiting emails</title><link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic|Roboto" rel="stylesheet" type="text/css"><link rel="shortcut icon" href="http://i.imgur.com/4Yh5Lg6.png"><link rel="stylesheet" type="text/css" href="normalize.css"><link rel="stylesheet" type="text/css" href="skeleton.css"><link rel="stylesheet" type="text/css" href="styles.css"></head><body><div class="nav nav-side"><h1 class="row">InMailFail</h1><img src="http://i.imgur.com/4Yh5Lg6.png" class="logo"><h2 class="row">An exciting opportunity for you!</h2><div class="buttons"><a href="/" class="button button-primary">Home</a><a href="/submit.html" class="button">Submit</a></div><div class="hired"><a href="http://join.hired.com/x/ackFco"><div class="top">Find a better job</div><div class="bottom">Hired</div></a></div><div>Made by <a href="http://rkoutnik.com">Randall Koutnik &copy;2015</a></div><div class="disclaimer">Dear lawyers: This is a parody.</div></div><div class="nav nav-top container"><div class="row"><img src="http://i.imgur.com/4Yh5Lg6.png" class="logo three columns"><div class="six columns title"><h1 class="row">InMailFail</h1><h2 class="row">An exciting opportunity for you!</h2></div><div class="three columns"><div class="buttons row"><a href="/" class="button button-primary">Home</a><a href="/submit.html" class="button">Submit</a></div><div class="hired row"><a href="http://join.hired.com/x/ackFco"><div class="top">Find a better job</div><div class="bottom">Hired</div></a></div></div></div><div class="row footer"><div class="me six columns">Made by <a href="http://rkoutnik.com">Randall Koutnik &copy;2015</a></div><div class="disclaimer six columns">Dear lawyers: This is a parody.</div></div></div><div class="container"><div class="infail"><h4 class="text-center">The Fed needs to cut down on title inflation</h4><div><blockquote>
+<p>I hope you're doing well.</p>
+</blockquote>
+<p>I'm reading terrible recruiter emails, so things could be better.</p>
+<blockquote>
+<p>I ran across your profile and thought you would be a great individual to reach out to.</p>
+</blockquote>
+<p>You &quot;ran across it&quot;?  I should tell that thing to stop hanging out in recruiter bars.</p>
+<blockquote>
+<p>My company is continuing the expansion of its headquarters here in San Mateo, CA. We are searching for a full-time Senior Software Engineer/Architect that is interested in working with the best.</p>
+</blockquote>
+<p>If my two years of experience qualifies me to be a &quot;Senior Software Engineer/Architect&quot; there, I'd hesitate to see what you offer someone who's actually <em>good</em>.  Double CTO perhaps?  I won't settle for anything less than Software Demigod.</p>
+</div></div><div class="infail"><h4 class="text-center">My English parser is broken</h4><div><blockquote>
+<p>Hope your [sic] having a great day down in California.  My name is REDACTED and I am an Web Development recruiter with REDACTED in Portland, OR.</p>
+</blockquote>
+<p>Please send water!</p>
+<blockquote>
+<p>Would you or anyone in your network be interested in learning more about this opportunity?</p>
+</blockquote>
+<p>I know an English teacher or two who could help you out.</p>
+</div></div><div class="infail"><h4 class="text-center">Everyone hires the best</h4><div><blockquote>
+<p>I had the opportunity to review your Linkedin profile and was very impressed with your background and experience.</p>
+</blockquote>
+<p>Thanks!  I try to keep it classy with the default background on my profile.</p>
+<blockquote>
+<p>This position offers lots of growth opportunity, challenge, great salary, equity, amazing benefits and the opportunity to work with some of the most talented engineers in the Bay Area.</p>
+</blockquote>
+<p>Sorry, I'm holding out for Friday massages from Swedish Ruby experts.</p>
+</div></div><div class="infail"><h4 class="text-center">I know Beer Fridays are a thing but this is ridiculous</h4><div><blockquote>
+<p>UI Developer Opportunities Throughout the Bar [sic] Area</p>
+</blockquote>
+</div></div><div class="infail"><h4 class="text-center">curl -X POST -d 'foot' /mouth</h4><div><blockquote>
+<ul>
+<li>Cutting edge technology stack</li>
+</ul>
+<p>You'll be working in:</p>
+<ul>
+<li>PHP (MVC) - Really? Uggh right? But... you also get to do a lot of work with:</li>
+</ul>
+</blockquote>
+<p>You either can brag about your &quot;cutting edge&quot; technology or you can complain about it.  Pick one.</p>
+</div></div><div class="infail"><h4 class="text-center">In which a recruiter tries to get me to do their job</h4><div><blockquote>
+<p>I saw your profile and was hoping I could network with you a bit. I'm working with a HOT startup in San Francisco led by ex-googlers and leading venture capital, who are building a new platform that is going to be a real game changer in the Enterprise space worth hundreds of millions of dollars. Do you know of anyone I can share this with, who knows Javascript really well and can work with AngularJS Backbone.js or Node.js? $1000 referral bonus offered for anyone who accepts.</p>
+</blockquote>
+<p>File under &quot;you can tell it's HOT because caps&quot;</p>
+</div></div><div class="infail"><h4 class="text-center">You could put an eye out with those exclamation marks!</h4><div><blockquote>
+<p>I'm sure you get this all the time...</p>
+</blockquote>
+<p>Yes.  Yes I do.  You're not helping.</p>
+<blockquote>
+<p>I came across your profile in LinkedIn and I'm very impressed with your experience as it pertains to front-end web development!</p>
+<p>I am a technical recruiter with REDACTED, and we are currently supporting multiple opportunities in the UI space that I would love to discuss with you!</p>
+<p>Please suggest a time/best number to reach you, and I will reach out accordingly!!</p>
+</blockquote>
+</div></div><div class="infail"><h4 class="text-center">I'm being recruited by a Markov Chain</h4><div><blockquote>
+<p>My research put your background on my radar and it motivated to contact you, can I ask you to clear your thoughts for a moment?</p>
+<p>I work for a unique firm that’s hired by some of the strongest VC’s, and private investors, that have launched some of the most successful startups in the bay to protect them from mediocre talent entering their startups. We build out their engineering teams. These startups we staff share a few common denominators, one they are run by management that refuses to hire anyone other than the top 15% and two these are leaders that have previously built teams considered to be role models in the bay by setting an incredibly high bar in the quality and pedigree of minds they hire.</p>
+<p>My firm they use to do their “cherry picking”. Our sole focus is startup engineering, and I focus on Manager and Director level searches. Our typical placement has their heads down and are making important contributions with no interest in checking who’s smelled around their LI profile.</p>
+<p>We are respected for our quiet trust in search and for the credibility we have in genuinely understanding the difference between SME’s and mediocre engineers. No “baiting” candidates with sales pitches. We listen then match. It’s been the primary reason, for our successes with Sequoia Capital’s portfolio.</p>
+<p>If there’s a variance between where you’re today and ultimately where you see yourself ending up, let’s chat. Your call. I am not a chaser, if you know what I mean. Please take a comfortable exit if this is not the right time, but if you’d like to get to know one another, I am available, unrushed to chat.</p>
+<p>I ask you respond to this so I know you have received it. Next step would be a call at your convenience.</p>
+</blockquote>
+</div></div><div class="infail"><h4 class="text-center">WHY ARE WE SHOUTING?</h4><div><blockquote>
+<p>1.0 PRODUCT - SENIOR UI OPENING AT REDACTED</p>
+</blockquote>
+<blockquote>
+<p>I am contacting you regarding an extremely exciting opportunity at REDACTED. We have an opening for a Senior UI Developer – this is the opportunity for you to make a significant impact in the development of a 1.0 PRODUCT for our new generation of cloud based admin experience. This person will be working side by side with a strong QE, Dev, and UX team and with high visible up to our VP. This role requires the use of cutting edge technology like AngularJs, HTML5, CSS3. As a UI Developer for EUC you will be responsible for generating the face of our business for organizations.</p>
+</blockquote>
+</div></div></div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-63816999-1', 'auto');
+ga('send', 'pageview');</script></body></html>
