@@ -74,6 +74,8 @@
 
 .container {
   margin-top: 60px; }
+  .container .infail h4 a {
+    color: inherit; }
   .container .infail blockquote {
     background-color: #eee;
     padding: 5px; }
