@@ -21,6 +21,32 @@
     <meta property="article:publisher" content="https://www.facebook.com/inmailfail">
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=407013352831760";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+      window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+        return t;
+      }(document, "script", "twitter-wjs"));
+    </script>
     <div class="nav nav-side">
       <h1 class="row">InMailFail</h1><img src="http://i.imgur.com/4Yh5Lg6.png" class="logo">
       <h2 class="row">An exciting opportunity for you!</h2>
@@ -52,6 +78,7 @@
     <div class="container">
       <div class="infail">
         <h4 class="text-center">You could put an eye out with those exclamation marks!</h4>
+        <div class="text-center social"><span data-href="http://inmailfail.com/article/You-could-put-an-eye-out-with-those-exclamation-marks.html" data-layout="button" class="fb-share-button share"></span><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Finmailfail.com%2Farticle%2FYou-could-put-an-eye-out-with-those-exclamation-marks.html&amp;text=You%20could%20put%20an%20eye%20out%20with%20those%20exclamation%20marks!" data-count="none" class="twitter-share-button share"></a></div>
         <div><blockquote>
 <p>I'm sure you get this all the time...</p>
 </blockquote>

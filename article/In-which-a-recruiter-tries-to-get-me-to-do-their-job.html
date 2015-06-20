@@ -21,6 +21,32 @@
     <meta property="article:publisher" content="https://www.facebook.com/inmailfail">
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=407013352831760";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+      window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+        return t;
+      }(document, "script", "twitter-wjs"));
+    </script>
     <div class="nav nav-side">
       <h1 class="row">InMailFail</h1><img src="http://i.imgur.com/4Yh5Lg6.png" class="logo">
       <h2 class="row">An exciting opportunity for you!</h2>
@@ -52,6 +78,7 @@
     <div class="container">
       <div class="infail">
         <h4 class="text-center">In which a recruiter tries to get me to do their job</h4>
+        <div class="text-center social"><span data-href="http://inmailfail.com/article/In-which-a-recruiter-tries-to-get-me-to-do-their-job.html" data-layout="button" class="fb-share-button share"></span><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Finmailfail.com%2Farticle%2FIn-which-a-recruiter-tries-to-get-me-to-do-their-job.html&amp;text=In%20which%20a%20recruiter%20tries%20to%20get%20me%20to%20do%20their%20job" data-count="none" class="twitter-share-button share"></a></div>
         <div><blockquote>
 <p>I saw your profile and was hoping I could network with you a bit. I'm working with a HOT startup in San Francisco led by ex-googlers and leading venture capital, who are building a new platform that is going to be a real game changer in the Enterprise space worth hundreds of millions of dollars. Do you know of anyone I can share this with, who knows Javascript really well and can work with AngularJS Backbone.js or Node.js? $1000 referral bonus offered for anyone who accepts.</p>
 </blockquote>

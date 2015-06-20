@@ -21,6 +21,32 @@
     <meta property="article:publisher" content="https://www.facebook.com/inmailfail">
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=407013352831760";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script>
+      window.twttr = (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0],
+          t = window.twttr || {};
+        if (d.getElementById(id)) return t;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        t._e = [];
+        t.ready = function(f) {
+          t._e.push(f);
+        };
+        return t;
+      }(document, "script", "twitter-wjs"));
+    </script>
     <div class="nav nav-side">
       <h1 class="row">InMailFail</h1><img src="http://i.imgur.com/4Yh5Lg6.png" class="logo">
       <h2 class="row">An exciting opportunity for you!</h2>
@@ -52,6 +78,7 @@
     <div class="container">
       <div class="infail">
         <h4 class="text-center">I'm being recruited by a Markov Chain</h4>
+        <div class="text-center social"><span data-href="http://inmailfail.com/article/Im-being-recruited-by-a-Markov-Chain.html" data-layout="button" class="fb-share-button share"></span><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Finmailfail.com%2Farticle%2FIm-being-recruited-by-a-Markov-Chain.html&amp;text=I'm%20being%20recruited%20by%20a%20Markov%20Chain" data-count="none" class="twitter-share-button share"></a></div>
         <div><blockquote>
 <p>My research put your background on my radar and it motivated to contact you, can I ask you to clear your thoughts for a moment?</p>
 <p>I work for a unique firm that’s hired by some of the strongest VC’s, and private investors, that have launched some of the most successful startups in the bay to protect them from mediocre talent entering their startups. We build out their engineering teams. These startups we staff share a few common denominators, one they are run by management that refuses to hire anyone other than the top 15% and two these are leaders that have previously built teams considered to be role models in the bay by setting an incredibly high bar in the quality and pedigree of minds they hire.</p>
