@@ -7,11 +7,13 @@
     text-align: left; }
     .nav .buttons a.button-primary {
       background-color: #AEAEAE;
-      border-color: #AEAEAE; }
+      border-color: #777; }
     .nav .buttons a:hover {
       border-color: #333; }
 .nav h1 {
   font-family: "Roboto", sans-serif; }
+  .nav h1 a {
+    color: inherit; }
 .nav h2 {
   font-family: "PT Sans", sans-serif;
   font-style: italic;
@@ -52,11 +54,6 @@
       width: 100%;
       margin: 0;
       text-align: left; }
-      .nav.nav-side .buttons a.button-primary {
-        background-color: #AEAEAE;
-        border-color: #AEAEAE; }
-      .nav.nav-side .buttons a:hover {
-        border-color: #333; }
 @media screen and (min-width: 1500px) {
   .nav.nav-top {
     display: none; } }
