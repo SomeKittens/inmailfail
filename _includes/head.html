@@ -1,0 +1,60 @@
+<head>
+  <meta charset="utf-8">
+  <title>
+    {% if page.title %}
+      {{ page.title }} &ndash;
+    {% endif %}
+    {{ site.name }}
+  </title>
+
+  <!-- Generic stuffs -->
+  <meta name="author" content="{{ site.name }}" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="robots" content="index/follow">
+  <meta name="copyright" content="InMailFail is copyright Randall Koutnik, {{ site.time | date: '%y' }}">
+
+  <!-- In case anyone actually uses RSS -->
+  <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+
+  <!-- ALL THE FAVICONS -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="manifest" href="/icons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/icons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Imports -->
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/base.css" type="text/css" media="screen, projection" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css" type="text/css" />
+  <link media="only screen and (max-device-width: 480px)" href="{{ site.github.url }}/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (device-width: 768px)" href="{{ site.github.url }}/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link href='//fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+
+  <link rel="apple-touch-icon" href="{{ site.github.url }}/apple-touch-icon.png" />
+
+  <!-- FB OG because social medias are how I value my self-worth -->
+  <meta property="og:title" content="Home">
+  <meta property="og:image" content="/images/logo-small.png">
+  <meta property="og:site_name" content="InMailFail">
+  <meta property="og:url" content="http://inmailfail.com">
+  <meta property="og:description" content="Insulting the worst in recruiting, daily to your screen">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_US">
+  <meta property="article:author" content="https://www.facebook.com/randall.koutnik">
+  <meta property="article:publisher" content="https://www.facebook.com/inmailfail">
+
+</head>

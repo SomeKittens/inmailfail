@@ -1,0 +1,10 @@
+permalink: /posts/:title
+markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+
+name: InMailFail
+url: https://inmailfail.com
+description: The worst in recruiting
+twitter: inmailfail

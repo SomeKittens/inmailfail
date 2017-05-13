@@ -1,4 +1,2 @@
-compile
-publish.js
-.sass-cache
-npm-debug.log
+_site
+.DS_Store
