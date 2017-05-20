@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '''Don't tell me *your* job'''
+title: Don't tell me *your* job
 category: posts
 ---
 
